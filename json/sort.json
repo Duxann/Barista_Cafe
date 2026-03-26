@@ -1,0 +1,6 @@
+[
+    {"nameDDL" : "name-asc", "valueDDL" : "Name A-Z"},
+    {"nameDDL" : "name-desc", "valueDDL" : "Name Z-A"},
+    {"nameDDL" : "price-asc", "valueDDL" : "Price low to high"},
+    {"nameDDL" : "price-desc", "valueDDL" : "Price high to low"}
+]

@@ -1,0 +1,300 @@
+{
+  "menuSection": [
+  {
+    "id": 1,
+    "category": "Favourite Menu",
+    "title": "Coffee",
+    "description": "Our most loved coffee selections",
+    "isActive": true,
+    "displayOrder": 1,
+    "items": [
+      {
+        "id": 101,
+        "name": "Latte",
+        "description": "Fresh brewed coffee and steamed milk",
+        "pricing": {
+          "currency": "$",
+          "originalPrice": 12.5,
+          "discountPrice": 7.50,
+          "discountPercentage": 40
+        },
+        "badge": null,
+        "availability": {
+          "inStock": true,
+          "seasonal": false
+        },
+        "sizes": [
+          { "size": "Small", "priceModifier": 0 },
+          { "size": "Medium", "priceModifier": 1.00 },
+          { "size": "Large", "priceModifier": 2.00 }
+        ],
+        "nutrition": {
+          "calories": 210,
+          "milkType": "Whole Milk",
+          "containsCaffeine": true
+        },
+        "rating": 4.6,
+        "image": {
+          "url": "images/coffees/latte.jpg",
+          "alt": "Cup of latte coffee"
+        }
+      },
+      {
+        "id": 102,
+        "name": "White Coffee",
+        "description": "Brewed coffee and steamed milk",
+        "pricing": {
+          "currency": "$",
+          "originalPrice": 5.90,
+          "discountPrice": null,
+          "discountPercentage": 0
+        },
+        "badge": "Reccomend",
+        "availability": {
+          "inStock": true,
+          "seasonal": false
+        },
+        "sizes": [
+          { "size": "Medium", "priceModifier": 0 },
+          { "size": "Large", "priceModifier": 1.50 }
+        ],
+        "nutrition": {
+          "calories": 180,
+          "milkType": "Oat Milk",
+          "containsCaffeine": true
+        },
+        "rating": 4.8,
+        "image": {
+          "url": "images/coffees/whiteCoffee.jpg",
+          "alt": "White coffee cup"
+        }
+      },
+      {
+        "id": 103,
+        "name": "Chocolate Milk",
+        "description": "Rich Milk and Foam",
+        "pricing": {
+          "currency": "$",
+          "originalPrice": 5.50,
+          "discountPrice": null,
+          "discountPercentage": 0
+        },
+        "badge": null,
+        "availability": {
+          "inStock": true,
+          "seasonal": false
+        },
+        "nutrition": {
+          "calories": 250,
+          "milkType": "Whole Milk",
+          "containsCaffeine": false
+        },
+        "rating": 4.4,
+        "image": {
+          "url": "images/coffees/chocolateCoffee.jpg",
+          "alt": "Chocolate milk drink"
+        }
+      },
+      {
+        "id": 104,
+        "name": "Greentea",
+        "description": "Fresh brewed green tea",
+        "pricing": {
+          "currency": "$",
+          "originalPrice": 7.50,
+          "discountPrice": null,
+          "discountPercentage": 0
+        },
+        "badge": null,
+        "availability": {
+          "inStock": true,
+          "seasonal": true
+        },
+        "nutrition": {
+          "calories": 90,
+          "milkType": null,
+          "containsCaffeine": true
+        },
+        "rating": 4.5,
+        "image": {
+          "url": "images/coffees/greenTea.jpg",
+          "alt": "Green tea cup"
+        }
+      },
+      {
+        "id": 105,
+        "name": "Dark Chocolate",
+        "description": "Rich Milk and Foam",
+        "pricing": {
+          "currency": "$",
+          "originalPrice": 7.25,
+          "discountPrice": null,
+          "discountPercentage": 0
+        },
+        "badge": "New",
+        "availability": {
+          "inStock": false,
+          "seasonal": false
+        },
+        "nutrition": {
+          "calories": 270,
+          "milkType": "Almond Milk",
+          "containsCaffeine": false
+        },
+        "rating": 4.7,
+        "image": {
+          "url": "images/coffees/darkCoffee.jpg",
+          "alt": "Dark chocolate drink"
+        }
+      }
+    ]
+  },
+  {
+  "id": 2,
+  "category": "Popular Menu",
+  "title": "Desserts",
+  "description": "Sweet treats loved by our customers",
+  "isActive": true,
+  "displayOrder": 2,
+  "items": [
+    {
+      "id": 201,
+      "name": "Chocolate Cake",
+      "description": "Moist chocolate cake with rich chocolate frosting",
+      "pricing": {
+        "currency": "$",
+        "originalPrice": 6.50,
+        "discountPrice": 5.20,
+        "discountPercentage": 20
+      },
+      "badge": "Popular",
+      "availability": {
+        "inStock": true,
+        "seasonal": false
+      },
+      "sizes": [
+        { "size": "Slice", "priceModifier": 0 },
+        { "size": "Double Slice", "priceModifier": 2.00 }
+      ],
+      "nutrition": {
+        "calories": 420,
+        "milkType": "Whole Milk",
+        "containsCaffeine": false
+      },
+      "rating": 4.7,
+      "image": {
+        "url": "images/coffees/chocolateCake.jpg",
+        "alt": "Slice of chocolate cake"
+      }
+    },
+    {
+      "id": 202,
+      "name": "Cheesecake",
+      "description": "Creamy cheesecake with biscuit crust",
+      "pricing": {
+        "currency": "$",
+        "originalPrice": 6.00,
+        "discountPrice": null,
+        "discountPercentage": 0
+      },
+      "badge": null,
+      "availability": {
+        "inStock": true,
+        "seasonal": false
+      },
+      "sizes": [
+        { "size": "Slice", "priceModifier": 0 }
+      ],
+      "nutrition": {
+        "calories": 380,
+        "milkType": "Cream Cheese",
+        "containsCaffeine": false
+      },
+      "rating": 4.6,
+      "image": {
+        "url": "images/coffees/cheeseCake.jpg",
+        "alt": "Classic cheesecake slice"
+      }
+    },
+    {
+      "id": 203,
+      "name": "Blueberry Muffin",
+      "description": "Soft muffin filled with fresh blueberries",
+      "pricing": {
+        "currency": "$",
+        "originalPrice": 3.50,
+        "discountPrice": null,
+        "discountPercentage": 0
+      },
+      "badge": "Fresh",
+      "availability": {
+        "inStock": true,
+        "seasonal": false
+      },
+      "nutrition": {
+        "calories": 290,
+        "milkType": null,
+        "containsCaffeine": false
+      },
+      "rating": 4.4,
+      "image": {
+        "url": "images/coffees/blueberryMuffin.jpg",
+        "alt": "Blueberry muffin"
+      }
+    },
+    {
+      "id": 204,
+      "name": "Tiramisu",
+      "description": "Italian dessert with coffee soaked biscuits and mascarpone",
+      "pricing": {
+        "currency": "$",
+        "originalPrice": 7.00,
+        "discountPrice": 6.30,
+        "discountPercentage": 10
+      },
+      "badge": "Chef Choice",
+      "availability": {
+        "inStock": true,
+        "seasonal": false
+      },
+      "nutrition": {
+        "calories": 410,
+        "milkType": "Mascarpone",
+        "containsCaffeine": true
+      },
+      "rating": 4.9,
+      "image": {
+        "url": "images/coffees/tiramisu.jpg",
+        "alt": "Tiramisu dessert"
+      }
+    },
+    {
+      "id": 205,
+      "name": "Ice Cream Sundae",
+      "description": "Vanilla ice cream with chocolate syrup and nuts",
+      "pricing": {
+        "currency": "$",
+        "originalPrice": 5.00,
+        "discountPrice": null,
+        "discountPercentage": 0
+      },
+      "badge": "Kids Favorite",
+      "availability": {
+        "inStock": true,
+        "seasonal": true
+      },
+      "nutrition": {
+        "calories": 350,
+        "milkType": "Whole Milk",
+        "containsCaffeine": false
+      },
+      "rating": 4.5,
+      "image": {
+        "url": "images/coffees/icecreamSundae.jpg",
+        "alt": "Ice cream sundae"
+      }
+    }
+  ]
+}
+]
+}

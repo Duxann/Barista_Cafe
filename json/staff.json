@@ -1,0 +1,76 @@
+{
+  "team": [
+    {
+      "personalInfo": {
+        "firstName": "Steve",
+        "lastName": "Anderson"
+      },
+      "role": {
+        "title": "Barista",
+        "department": "employee"
+      },
+      "description": "Keeps the coffee flowing and the chaos in check.",
+      "image": {
+        "src": "images/team/portrait-elegant-old-man-wearing-suit.jpg",
+        "alt": "Portrait of Steve wearing a suit"
+      },
+      "contact": {
+        "email": "steve@example.com"
+      }
+    },
+    {
+      "personalInfo": {
+        "firstName": "Anna",
+        "lastName": "Peterson"
+      },
+      "role": {
+        "title": "Waitress",
+        "department": "employee"
+      },
+      "description": "Turns ideas into campaigns that people love.",
+      "image": {
+        "src": "images/team/cute-korean-barista-girl-pouring-coffee-prepare-filter-batch-brew-pour-working-cafe.jpg",
+        "alt": "Portrait of Anna smiling"
+      },
+      "contact": {
+        "email": "anna@example.com"
+      }
+    },
+    {
+      "personalInfo": {
+        "firstName": "Michael",
+        "lastName": "Brown"
+      },
+      "role": {
+        "title": "Boss",
+        "department": "Menagement"
+      },
+      "description": "Builds the backbone of every digital product.",
+      "image": {
+        "src": "images/team/small-business-owner-drinking-coffee.jpg",
+        "alt": "Portrait of Michael"
+      },
+      "contact": {
+        "email": "michael@example.com"
+      }
+    },
+    {
+      "personalInfo": {
+        "firstName": "Sophia",
+        "lastName": "Williams"
+      },
+      "role": {
+        "title": "Server",
+        "department": "Crew"
+      },
+      "description": "Designs experiences that users enjoy every day.",
+      "image": {
+        "src": "images/team/smiley-business-woman-working-cashier.jpg",
+        "alt": "Portrait of Sophia"
+      },
+      "contact": {
+        "email": "sophia@example.com"
+      }
+    }
+  ]
+}

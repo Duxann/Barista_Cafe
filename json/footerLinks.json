@@ -1,0 +1,19 @@
+{
+  "socialIcons": [
+    {
+      "url": "https://www.facebook.com",
+      "iconClass": "bi-facebook",
+      "target": "_self"
+    },
+    {
+      "url": "https://x.com",
+      "iconClass": "bi-twitter",
+      "target": "_new"
+    },
+    {
+      "url": "https://www.instagram.com",
+      "iconClass": "bi-instagram",
+      "target": "_self"
+    }
+  ]
+}

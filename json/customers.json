@@ -1,0 +1,52 @@
+{
+  "reviews": [
+    {
+      "name": "Sandra",
+      "role": "Customers",
+      "image": {
+        "url" : "images/reviews/young-woman-with-round-glasses-yellow-sweater.jpg",
+        "alt" : "picture of customer"
+      },
+      "text": "I had a wonderful experience at this cafe! The cappuccino was perfectly brewed, the pastries were fresh and delicious, and the cozy atmosphere made it a perfect spot to relax or catch up on work. The staff were friendly and attentive, which made the visit even more enjoyable.",
+      "rating": 5.0,
+      "stars": [1, 1, 1, 1, 1],
+      "side" : "left"
+    },
+    {
+      "name": "Don",
+      "role": "Customers",
+      "image": {
+        "url" : "images/reviews/senior-man-white-sweater-eyeglasses.jpg",
+        "alt" : "picture of customer"
+      },
+      "text": "Great coffee, tasty snacks, and service that makes you feel at home.",
+      "rating": 4.0,
+      "stars": [1, 1, 1, 1, 0],
+      "side" : "right"
+    },
+    {
+      "name": "Olivia",
+      "role": "Customers",
+      "image": {
+        "url" : "images/reviews/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg",
+        "alt" : "picture of customer"
+      },
+      "text": "Excellent espresso and a comfy corner to get some work done.",
+      "rating": 4.0,
+      "stars": [1, 1, 1, 1, 0],
+      "side" : "left"
+    },
+    {
+    "name": "Liam",
+    "role": "Customer",
+    "image": {
+        "url": "images/reviews/young-woman-with-round-glasses-yellow-sweater.jpg",
+        "alt": "picture of customer"
+    },
+    "text": "The cappuccino was perfect and the ambiance made my morning so relaxing.",
+    "rating": 5.0,
+    "stars": [1, 1, 1, 1, 1],
+    "side": "right"
+    }
+  ]
+}

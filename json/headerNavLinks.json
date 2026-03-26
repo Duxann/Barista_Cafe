@@ -1,0 +1,11 @@
+{
+    "navigationLinks" : [
+        {"navLinkName" : "Home", "navLinkUrl" : "index.html"},
+        {"navLinkName" : "About", "navLinkUrl" : "index.html#section_2"},
+        {"navLinkName" : "Menu", "navLinkUrl" : "menu.html"},
+        {"navLinkName" : "Reviews", "navLinkUrl" : "index.html#section_4"},
+        {"navLinkName" : "Contact", "navLinkUrl" : "#section_5"},
+        {"navLinkName" : "Author", "navLinkUrl" : "author.html"},
+        {"navLinkName" : "Cart", "navLinkUrl" : "cart.html"}
+    ]
+}

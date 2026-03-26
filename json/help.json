@@ -1,0 +1,7 @@
+[
+    {"value" : "technical", "text" : "Technical Support / Bug Report"},
+    {"value" : "billing", "text" : "Billing & Account Inquiries"},
+    {"value" : "feature", "text" : "Feature Request / Suggestion"},
+    {"value" : "partnership", "text" : "Partnership or Collaboration"},
+    {"value" : "other", "text" : "Other / General Question"}
+]
