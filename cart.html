@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f4; padding: 40px; }
+        .cart-container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th { text-align: left; border-bottom: 2px solid #eee; padding: 10px; color: #666; }
+        td { padding: 15px 10px; border-bottom: 1px solid #eee; }
+
+        .remove-item { color: #ff4d4d; cursor: pointer; font-weight: bold; border: none; background: none; font-size: 1.1em; }
+        .remove-item:hover { color: #cc0000; }
+
+        .cart-footer { margin-top: 30px; display: flex; justify-content: space-between; align-items: center; }
+        
+        .clear-cart-btn { background-color: #6c757d; color: white; border: none; padding: 10px 15px; border-radius: 6px; cursor: pointer; }
+        .clear-cart-btn:hover { background-color: #5a6268; }
+
+        .total-price { font-size: 1.4em; font-weight: bold; color: #333; }
+        .checkout-btn { background-color: #007bff; color: white; border: none; padding: 12px 25px; border-radius: 6px; cursor: pointer; font-weight: bold; }
+        .checkout-btn:hover { background-color: #0056b3; }
+    </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Barista Cafe HTML CSS Template</title>
+
+        <!-- CSS FILES -->                
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap" rel="stylesheet">
+            
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/tooplate-barista.css" rel="stylesheet">
+        
+<!--
+
+Tooplate 2137 Barista Cafe
+
+https://www.tooplate.com/view/2137-barista-cafe
+
+Bootstrap 5 HTML CSS Template
+
+-->
+    </head>
+<body data-page="cart">
+                <nav class="navbar navbar-expand-xl">                
+                    <div class="container">
+                        <a class="navbar-brand d-flex align-items-center" href="index.html">
+                            <img src="images/coffee-beans.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
+                            Barista
+                        </a>
+        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+        
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-lg-auto linkList">
+                            </ul>
+                            <div class="ms-lg-3">
+                                <a class="btn custom-btn custom-border-btn" href="documentation.pdf">
+                                    Documentation
+                                    <i class="bi-arrow-up-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+<div class="cart-container" style="margin-top:100px;">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h2>🛒 Your Cart</h2>
+        <button class="clear-cart-btn" onclick="clearCart()">Empty cart</button>
+    </div>
+    
+    <table id="tt">
+    </table>
+</div>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js" integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/main.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+</body>
+</html>
